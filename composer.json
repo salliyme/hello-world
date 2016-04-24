@@ -1,5 +1,6 @@
 {
     "name": "salliyme/hello-world",
+    "description":"This is my first hello world program.so it just for test.",
     "require": {
         "monolog/monolog": "1.0.*"
     }
