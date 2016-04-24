@@ -1,7 +1,35 @@
 {
     "name": "salliyme/hello-world",
     "description":"This is my first hello world program.so it just for test.",
+    "keywords":"hello world salliyme",
+    "homepage":"https://github.com/salliyme/hello-world",
+    "licence":"MIT",
+    "author":[
+        {
+            "name": "salliyme",
+            "email": "307623183@qq.com",
+            "homepage": "http://www.salliyme.com",
+            "role": "Developer"
+        }
+        ],
+    "support": {
+        "email": "307623183@qq.com",
+        "issues": "http://www.salliyme.com",
+        "form":"http://www.salliyme.com/form.php",
+        "irc": "irc://irc.salliyme.org/hello-world",
+        "source":"https://github.com/salliyme/hello-world",
+    },
     "require": {
         "monolog/monolog": "1.0.*"
+    },
+    "suggest":{
+        "monolog/monolog": "Allows more advanced logging of the application flow"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
     }
+    
 }
